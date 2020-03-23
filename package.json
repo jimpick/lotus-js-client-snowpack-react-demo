@@ -1,0 +1,38 @@
+{
+  "name": "lotus-js-client-snowpack-react-demo",
+  "version": "0.0.1",
+  "description": "Demo using initial Lotus JS Client libraries",
+  "main": "index.html",
+  "scripts": {
+    "prepare": "snowpack",
+    "start": "serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codesandbox-app/static-template.git"
+  },
+  "keywords": [],
+  "author": "Jim Pick (@jimpick)",
+  "license": "(Apache-2.0 AND MIT)",
+  "dependencies": {
+    "@filecoin-shipyard/lotus-client-schema": "^0.0.2",
+    "@filecoin-shipyard/lotus-client-rpc": "^0.0.2",
+    "@filecoin-shipyard/lotus-client-provider-browser": "^0.0.1",
+    "htm": "^3.0.3",
+    "react": "npm:@jimpick/react-experimental@16.13.0-0",
+    "react-dom": "npm:@jimpick/react-dom-experimental@16.13.0-0",
+    "serve": "^11.3.0",
+    "snowpack": "^1.6.0"
+  },
+  "snowpack": {
+    "webDependencies": [
+      "htm",
+      "htm/react",
+      "react",
+      "react-dom",
+      "@filecoin-shipyard/lotus-client-provider-browser",
+      "@filecoin-shipyard/lotus-client-rpc",
+      "@filecoin-shipyard/lotus-client-schema/prototype/testnet-v3.js"
+    ]
+  }
+}

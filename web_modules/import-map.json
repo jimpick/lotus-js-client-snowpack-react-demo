@@ -1,0 +1,11 @@
+{
+  "imports": {
+    "@filecoin-shipyard/lotus-client-provider-browser": "./@filecoin-shipyard/lotus-client-provider-browser.js",
+    "@filecoin-shipyard/lotus-client-rpc": "./@filecoin-shipyard/lotus-client-rpc.js",
+    "@filecoin-shipyard/lotus-client-schema/prototype/testnet-v3.js": "./@filecoin-shipyard/lotus-client-schema/prototype/testnet-v3.js",
+    "htm": "./htm.js",
+    "htm/react": "./htm/react.js",
+    "react": "./react.js",
+    "react-dom": "./react-dom.js"
+  }
+}
