@@ -40,6 +40,7 @@ function LocalNet(props) {
           `
         )}
       </div>
+      <a href="https://github.com/jimpick/lotus-js-client-snowpack-react-demo">Source on GitHub</a>
     </div>
   `;
 }
